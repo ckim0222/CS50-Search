@@ -1,0 +1,40 @@
+.links {
+    text-align: right;
+    font-family: arial,sans-serif;
+}
+a {
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15;
+}
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+#inputbox {
+    border-radius: 25px 25px 25px 25px;
+    height: 45px;
+    border:1px solid rgb(206, 206, 206);
+}
+#inputalign{
+    text-align: center;
+}
+#GoogleLogo {
+    padding-top: 10%;
+    text-align: center;
+}
+#subButton {
+    padding-top: 1%;
+    text-align: center;
+    font-family: arial,sans-serif;
+}
+#borColor {
+    border-width: 0ch;
+    background-color:#f8f9fa;
+}
+#borColor1 {
+    margin-left: 15px;
+    border-width: 0ch;
+    background-color:#f8f9fa;
+}

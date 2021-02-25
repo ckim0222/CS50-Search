@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="advanceds.css">
+    </head>
+    <body>
+        <div class="links">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="title">
+            <label>Advanced Search</label>
+        </div>
+        <hr>
+        <div class="instructions">
+            <label id="instruct">Find pages with...</label> <label id="guide">To do this in the search box</label>
+        </div>
+        <form action="https://google.com/search">
+            <div class="asnumone"> 
+                <label id="asOneHuh">all these words:</label>
+                <input type="text" name="as_q" id="asone" size="90">
+                <label id="asOneDir">Type the important words:</label>
+                <label id="asOneEx">tricolor rat terrier</label>
+            </div>
+            <div class="asnumone">
+                <label id="asOneHuh">this exact word or phrase:</label>
+                <input type="text" name="as_epq" id="astwo" size="90">
+                <label id="asOneDir">Put exact words in quotes:</label>
+                <label id="asOneEx">"rat terrier"</label>
+            </div>
+            <div class="asnumone">
+                <label id="asOneHuh">any of these words:</label>
+                <input type="text" name="as_oq" id="asthree" size="90">
+                <label id="asOneDir">Type OR between all the words you want:</label>
+                <label id="asOneEx">miniature OR standard</label>
+            </div>
+            <div class="asnumone">
+                <label id="asOneHuh">none of these words:</label>
+                <input type="text" name="as_eq" id="asfour" size="90">
+                <label id="asOneDir">Put a minus sign just before words you don't want:</label>
+                <label id="asOneEx">-rodent, -"Jack Russell"</label>
+            </div>
+            <input type="submit" value="Advanced Search" id="searchbox">
+        </form>
+    </body>
+</html>
